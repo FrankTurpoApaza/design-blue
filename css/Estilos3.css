@@ -243,6 +243,7 @@ body
 .PServicios__trj .reimg
 {
     overflow: hidden;
+    border-radius: 5px 5px 0 0;
 }
 .PServicios__trj img
 {
@@ -254,7 +255,8 @@ body
 }
 .PServicios__trj:hover img
 {
-    transform: scale(1.1)
+    border-radius: 15px;
+    transform: scale(1.1);
 }
 
 .PServicios__trj p
@@ -262,6 +264,12 @@ body
     text-align: center;
     font-size: 1.2em;
     padding: 10px 0;
+
+    transition: .5s;
+}
+.PServicios__trj:hover p
+{
+    color: var(--cd);
 }
 
 /*--------Contenido de la tarjeta--------*/
