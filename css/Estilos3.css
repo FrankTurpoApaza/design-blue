@@ -51,7 +51,7 @@ body
 .item a
 {
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     color: white;
     display: block;
     padding: 2px 12px;
@@ -192,12 +192,15 @@ body
 }
 /*---------Contenido total de la pagina---------*/
 
-.principal
+.contenido
 {
-    width: 90%;
-    padding: 0 18px;
+    width: 80%;
     margin: auto;
     color: white;
+}
+.ffss
+{
+    font-family: sans-serif;
 }
 
 .pri-title
@@ -267,8 +270,6 @@ body
 {
     display: flex;
     
-    width: 90%;
-    margin: auto;
     align-items: center;
     justify-content: center;
 }
@@ -284,8 +285,8 @@ body
     height: 75%;
     width: 300px;
     background: white;
-    font-size: 1.5em;
-    padding: 32px 50px;
+    font-size: 1.25em;
+    padding: 32px 48px;
    
 }
 .botonT
@@ -300,60 +301,6 @@ body
     border-radius: .5em;
     margin-top: 15px;
     font-size: 16px;
-}
-
-/*Contenido lateral-final*/
-
-.lateral
-{
-    width: 90%;
-    padding: 8px 15px;
-    margin: 40px auto;
-    text-align: center;
-    /*background: linear-gradient(135deg,transparent,green );*/
-    border: 2px solid green;
-    border-radius: 8px;
-}
-
-.mc
-{
-    margin: 0;
-    background-color: rgb(250,250,255,);
-    color: var(--cd);
-    
-}
-
-.pl
-{
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
-
-.boton
-{
-    display: inline-block;
-    background: blue;
-    line-height: 3em;
-    padding: 0 1.7em;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: .5em;
-    margin: 5px 12px;
-    font-size: 13px;
-    /*box-shadow: 1px 0  darkblue inset;*/
-    
-}
-
-.boton:hover
-{
-    background: darkblue;
-}
-
-.boton:active
-{
-    transform: scale(.9);
 }
 
 /*Articulos*/
@@ -405,6 +352,11 @@ body
 .Trabajos, .Disenos
 {
     margin-right: 35px;
+}
+
+.pie_title
+{
+    font-size: 1.5em;
 }
 
 .pie_items

@@ -14,8 +14,8 @@
     .tarjeta{
         flex-direction: column;
     }
-    .tarjeta-txt{
-        width: 65%;
+    .tarjeta-txt, .tarjeta-img{
+        width: 100%;
     }
 
 }
