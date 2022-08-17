@@ -222,7 +222,9 @@ body
 }
 
 /*------Contenido de la descripcion------*/
-
+.pr{
+    font-size: 1.25em;
+}
 
 /*------Contenido de servicios------*/
 
