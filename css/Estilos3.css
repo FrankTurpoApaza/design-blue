@@ -30,15 +30,14 @@ body
 .titulo
 {
     display: flex;
+    
 }
 .titulo1
 {
-    font-size: 2em;
     color: white;
 }
 .titulo2
 {
-    font-size: 2em;
     color: #3295f2;
     margin-left: 10px;
 }
@@ -51,7 +50,8 @@ body
 .item a
 {
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
     color: white;
     display: block;
     padding: 2px 12px;
